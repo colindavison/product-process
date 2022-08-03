@@ -13,11 +13,11 @@
 
 ## code/webscrape.py
 Scrapes all necessary data from Google Patents for a given industry.  The code can be readily modified to run in parallel on a compute cluster by using a list of industry codes.  
--Output: 2040_discern.csv
+- Output: 2040_discern.csv
 
 ## code/clean.py
 Cleans the raw data in 2040_discern.csv and creates all variables needed as inputs for the machine learning (ML) models
--Output: 2040_discern.zip
+- Output: 2040_discern.zip
 
 ## code/classify_preamble.py
 Please change root directory to your local directory and then alter any switches for changing output before running "code/classify.py"
