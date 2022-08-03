@@ -1,8 +1,0 @@
-#!/bin/bash
-#$ -M cdaviso1@nd.edu
-#$ -m abe
-#$ -q long
-#$ -pe smp 8
-export OMP_NUM_THREADS=${NSLOTS}
-
-python classify.py
