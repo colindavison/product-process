@@ -42,8 +42,14 @@ def get_data(sic_code, directory_initial, classify, counter=0, match=0):
     else:
         pass
 
-    if path.exists(str(sic_code) + '_discern_hand_classified.csv'):
-        df_get_data = pd.read_csv(str(sic_code) + '_discern_hand_classified.csv', index_col='publn_claim_id', low_memory = False)
+    if path.exists(str(sic_code) + '_discern.zip'):
+        with zipfile.ZipFile(str(sic_code) + '_discern.zip', 'r') as my_zip:
+            my_zip.extract(str(sic_code) + '_discern.csv')
+
+        df_data = pd.read_csv(str(sic_code) + '_discern.csv', index_col='publn_claim_id')
+        df_data = df_data.drop(columns=['process', 'hand_classified'], errors='ignore')
+        df_hc = pd.read_csv(directory_initial + 'hand_classified.csv', index_col='publn_claim_id')
+        df_get_data = df_data.merge(df_hc, left_index=True, right_index=True, how='inner')
 
     else:
         df_get_data = pd.DataFrame()
@@ -538,10 +544,12 @@ def classify_sic(isic_code, sic_code, isic_list, sic_list, initial_success=0):
             my_zip.extract(str(sic_code) + '_discern.csv')
 
         df_all = pd.read_csv(str(sic_code) + '_discern.csv', index_col=['publn_claim_id'], low_memory = False)
-        df_hc = pd.read_csv(str(sic_code) + '_discern_hand_classified.csv', index_col=['publn_claim_id'], low_memory = False)
+        df_all = df_all.drop(columns=[classify, 'classified'], errors='ignore')
+        df_all2 = df_all.drop(columns=['hand_classified'], errors='ignore')
+        df_hc = pd.read_csv(directory_initial + 'hand_classified.csv', index_col='publn_claim_id')
+        df_hc = df_all2.merge(df_hc, left_index=True, right_index=True, how='inner')
         
         #drop classification columns and those with no publn_claim data so that I can overwrite them with new predictions
-        df_all = df_all.drop(columns=[classify, 'classified'], errors = 'ignore')
         df_nopub = df_all[(df_all['publn_claims_clean'].isnull() == 1) & (df_all['hand_classified'] == 0)]
         df_all = df_all.dropna(subset = ['publn_claims_clean'])
         df_unclass = df_all[df_all['hand_classified'] == 0]

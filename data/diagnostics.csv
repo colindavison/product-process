@@ -87,7 +87,7 @@ sic,sic_desc,patents,frac_patents,recall_process,precision_process,f1_score_proc
 2650,"Paperboard Containers, Boxes",2137,0.16%,,,,,,,,,,,,,,
 3021,Rubber and Plastics Footwear,2106,0.16%,,,,,,,,,,,,,,
 2000,Food and Kindred Products,2097,0.16%,,,,,,,,,,,,,,
-2040,Grain Mill Products,1984,0.15%,0.947,0.883,0.914,0.905,0.816,0.864,0.937,0.521,282.0,282.0,"['first_2_words_lem', 'first_3_words_lem', 'first_4_words_lem', 'first_5_words_lem', 'first_6_words_lem', 'first_7_words_lem', 'first_8_words_lem', 'first_9_words_lem', 'first_10_words_lem', 'cpc4', 'first_2_words_lem_cpc4', 'first_3_words_lem_cpc4', 'first_4_words_lem_cpc4', 'first_5_words_lem_cpc4', 'first_6_words_lem_cpc4', 'first_7_words_lem_cpc4', 'first_8_words_lem_cpc4', 'first_9_words_lem_cpc4', 'first_10_words_lem_cpc4']",PassiveAggressiveClassifier(random_state=5),['2040'],0.0
+2040,Grain Mill Products,1984,0.15%,,,,,,,,,,,,,,
 3743,Railroad Equipment,1940,0.15%,,,,,,,,,,,,,,
 3221,Glass Containers,1931,0.15%,,,,,,,,,,,,,,
 3621,Motors and Generators,1918,0.15%,,,,,,,,,,,,,,

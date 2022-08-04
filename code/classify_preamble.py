@@ -33,7 +33,7 @@ directory_initial = root + '//data//'
 classifier_list = [ComplementNB(), MultinomialNB(), PassiveAggressiveClassifier(random_state=5)]
 feature_select_list = ['no', 'yes']
 classify = 'process'
-predict_on = 'yes'
+predict_on = 'no'
 print_on = 'no'
 final_prediction_on = 'yes'
 

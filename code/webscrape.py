@@ -104,8 +104,8 @@ def google_patent_webscraper(sic):
             title = soup.find(itemprop = 'title').text
             abstract = soup.find('meta',attrs={'name':'DC.description'})
             publn_claims = soup.find_all(ind_claims)
-            cpc_first = soup.find(content = 'true', itemprop='FirstCode').find_previous(itemprop='Code').text
-            cpc_first_desc = soup.find(content = 'true', itemprop='FirstCode').find_previous(itemprop='Description').text
+            cpc_first = soup.find(content = 'true', itemprop='Leaf').find_previous(itemprop='Code').text
+            cpc_first_desc = soup.find(content = 'true', itemprop='Leaf').find_previous(itemprop='Description').text
             cpc4_first = cpc_first[0:4]
             cpc4_first_desc = soup.find(itemprop="Code", string=re.compile(cpc4_first)).find_next(itemprop='Description').text
             cpc3_first = cpc_first[0:3]
@@ -166,6 +166,7 @@ def google_patent_webscraper(sic):
                 publn_claims_abbr_list.append(claim_abbr)
 
         except:
+            print(patent_number)
             continue
 
     data = pd.DataFrame(list(zip(patent_number_list_reshape, title_reshape, publn_claims_list, publn_claims_abbr_list, cpc_first_list_reshape, \
@@ -197,8 +198,6 @@ def google_patent_webscraper(sic):
     data.insert(0, 'conm', conm)
     data['publn_claim_id'] = data['patent'] + '_' + data['publn_claim_n'].apply(lambda x: str(x))
     data = data.set_index('publn_claim_id')
-
-
     directory_sic = directory + str(sic) + '//'
 
     if path.exists(directory_sic):
