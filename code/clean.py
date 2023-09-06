@@ -33,10 +33,12 @@ nlp = en_core_web_sm.load(disable=['parser', 'ner'])
 table = str.maketrans('', '', string.punctuation)
 suffix = ''
 
+df_sic_list = pd.read_csv(root + '/data/sic_list.csv').dropna(subset = ['request_extra_sic'])
+sic_list = list(df_sic_list['sic'])
+sic_list = [int(float(x)) for x in sic_list]
 
-sic_list = [2040]
-root = '//afs//crc.nd.edu//user//c//cdaviso1//pvp_git//'
-directory = root + 'data//'
+root = '/Users/cdavison/Library/CloudStorage/OneDrive-TheCollegeofWooster/research/product-process/'
+directory = root + 'data/'
 os.chdir(directory)
 
 def clean(sic):

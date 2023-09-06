@@ -3,27 +3,16 @@
 
 # In[1]:
 
-import functools, operator, json, re, string, os, csv, urllib.parse, nltk, shutil, concurrent.futures, sys
+import string, os
 import pandas as pd
-import numpy as np
-from random import sample
-from os import path
-from urllib.request import Request, urlopen
-from urllib.error import HTTPError
-from bs4 import BeautifulSoup
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.feature_selection import chi2, SelectKBest
-from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB, ComplementNB
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.pipeline import Pipeline, FeatureUnion
-from sklearn.metrics import recall_score, precision_score, f1_score, roc_auc_score, confusion_matrix
-from sklearn.base import BaseEstimator, TransformerMixin
-from sklearn.linear_model import LogisticRegression, Lasso, RidgeClassifier
 
-sic = 2040
-root = '//afs//crc.nd.edu//user//c//cdaviso1//pvp_git//'
-directory = root + 'data//'
+root = '/Users/cdavison/Library/CloudStorage/OneDrive-TheCollegeofWooster/research/product-process/'
+directory = root + 'data/'
+
+df_sic_list = pd.read_csv(root + '/data/sic_list.csv').dropna(subset = ['request_extra_sic'])
+sic_list = list(df_sic_list['sic'])
+sic_list = [int(float(x)) for x in sic_list]
+
 os.chdir(directory)
 
 table = str.maketrans('', '', string.punctuation)
@@ -59,7 +48,7 @@ def google_patent_webscraper(sic):
     from sklearn.base import BaseEstimator, TransformerMixin
     from sklearn.linear_model import LogisticRegression, Lasso, RidgeClassifier
 
-    root = '//afs//crc.nd.edu//user//c//cdaviso1//pvp_git//'
+    root = '/Users/cdavison/Library/CloudStorage/OneDrive-TheCollegeofWooster/research/product-process/'
     directory = root + 'data//'
     os.chdir(directory)
 
@@ -238,5 +227,6 @@ def google_patent_webscraper(sic):
     bcites_fam_reshape = []
     title_reshape = []
 
-google_patent_webscraper(sic)
+for sic in sic_list:
+    google_patent_webscraper(sic)
 
