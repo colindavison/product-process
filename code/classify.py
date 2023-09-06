@@ -106,7 +106,7 @@ def classify_sic(isic_code, sic_code, isic_list, sic_list, initial_success=0):
                 data = get_data(sic, directory_initial, classify)
                 initial_success += 1
             else:
-                data = data.append(get_data(sic, directory_initial, classify))
+                data = pd.concat([data, get_data(sic, directory_initial, classify)])
         sic_list = [str(x) for x in sic_list]
     else:
         data = get_data(sic_code, directory_initial, classify)
@@ -282,7 +282,7 @@ def classify_sic(isic_code, sic_code, isic_list, sic_list, initial_success=0):
                         if counter_cv == 0:
                             predictions = X_test
                         else:
-                            predictions = predictions.append(X_test)
+                            predictions = pd.concat([predictions, X_test])
 
                     for r in range(0, len(pipe.get_params()['features__transformer_list'])):
                         feature_list.append(pipe.get_params()['features__transformer_list'][r][0])
@@ -330,7 +330,7 @@ def classify_sic(isic_code, sic_code, isic_list, sic_list, initial_success=0):
                     if counter == 0:
                         df2 = predictions
                     else:
-                        df2 = df2.append(predictions)
+                        df2 = pd.concat([df2, predictions])
 
     df2.to_csv(str(sic_code) + '_model_selection.csv')
     df3 = df2.iloc[[df2['matthews_corrcoef'].argmax()]]
@@ -448,7 +448,7 @@ def classify_sic(isic_code, sic_code, isic_list, sic_list, initial_success=0):
             if counter_cv == 0:
                 predictions = X_test
             else:
-                predictions = predictions.append(X_test)
+                predictions = pd.concat([predictions, X_test])
 
         for r in range(0, len(pipe.get_params()['features__transformer_list'])):
             feature_list.append(pipe.get_params()['features__transformer_list'][r][0])
@@ -492,7 +492,7 @@ def classify_sic(isic_code, sic_code, isic_list, sic_list, initial_success=0):
                                              'model_index']]
 
         predictions = predictions.set_index('pipe_number')
-        df2 = df2.append(predictions)
+        df2 = pd.concat([df2, predictions])
 
     df2.to_csv(str(sic_code) + '_model_selection.csv')
     df3 = df2.iloc[[df2['matthews_corrcoef'].argmax()]]
@@ -558,8 +558,8 @@ def classify_sic(isic_code, sic_code, isic_list, sic_list, initial_success=0):
         df_unclass[classify] = pipe_final.predict(df_unclass)
         
         #append hand classified
-        df_all = df_unclass.append(df_hc)
-        df_all = df_all.append(df_nopub)
+        df_all = pd.concat([df_unclass, df_hc])
+        df_all = pd.concat([df_all, df_nopub])
 
         #zip the up new file if losing no data, else zip up the old file
         if df_all.shape[0] == pd.read_csv(str(sic_code) + '_discern.csv', index_col=['publn_claim_id'], low_memory = False).shape[0]:
