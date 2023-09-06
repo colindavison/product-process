@@ -1,106 +1,106 @@
 sic,patents,sic_desc,request_extra_sic,extra_sic
-3674,"159,830","Semiconductor,Related Device",,
-2834,"71,076",Pharmaceutical Preparations,,
-9997,"61,031",Industrial Conglomerates,,
-3577,"56,677","Computer Peripheral Eq, Nec",,
-3711,"41,252",Motor Vehicles and Car Bodies,,
-3663,"37,316","Radio, TV Broadcast, Comm Eq",,
-3570,"33,554",Computer and Office Equipment,,
-3845,"27,622",Electromedical Apparatus,,
-2911,"25,466",Petroleum Refining,,
-2860,"23,213",Industrial Organic Chemicals,,
-2820,"21,267","Plastc,Synth Matls;Ex Glass",,
-3576,"18,905",Computer Communications Equip,,
-3572,"18,814",Computer Storage Devices,,
-3714,"18,486","Motor Vehicle Part,Accessory",,
-2670,"17,110","Convrt Papr,Paprbrd,Ex Boxes",,
-3721,"16,291",Aircraft,,
-3826,"15,692",Lab Analytical Instruments,,
+3674,"159,830","Semiconductor,Related Device",0,3674
+2834,"71,076",Pharmaceutical Preparations,0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+9997,"61,031",Industrial Conglomerates,0,9997
+3577,"56,677","Computer Peripheral Eq, Nec",0,"3672, 3570, 3571, 3572, 3670, 3576, 3577, 3674, 3677, 3678, 3679"
+3711,"41,252",Motor Vehicles and Car Bodies,0,"3713, 3714, 3715, 3716, 3720, 3721, 3724, 3728, 3711"
+3663,"37,316","Radio, TV Broadcast, Comm Eq",0,"3651, 3690, 3661, 3663, 3600, 3669, 3674, 3679"
+3570,"33,554",Computer and Office Equipment,0,"3672, 3570, 3571, 3572, 3670, 3576, 3577, 3674, 3677, 3678, 3679"
+3845,"27,622",Electromedical Apparatus,0,"3841, 3842, 3843, 3844, 3845, 2833, 2834, 2835, 2836"
+2911,"25,466",Petroleum Refining,0,"2820, 2821, 2800, 2810, 2911"
+2860,"23,213",Industrial Organic Chemicals,0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+2820,"21,267","Plastc,Synth Matls;Ex Glass",0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+3576,"18,905",Computer Communications Equip,0,"3672, 3570, 3571, 3572, 3670, 3576, 3577, 3674, 3677, 3678, 3679"
+3572,"18,814",Computer Storage Devices,0,"3672, 3570, 3571, 3572, 3670, 3576, 3577, 3674, 3677, 3678, 3679"
+3714,"18,486","Motor Vehicle Part,Accessory",0,"3713, 3714, 3715, 3716, 3720, 3721, 3724, 3728, 3711"
+2670,"17,110","Convrt Papr,Paprbrd,Ex Boxes",0,"2631, 2600, 2670, 2673, 2611, 2840, 2650, 2842, 2844, 2621"
+3721,"16,291",Aircraft,0,"3713, 3714, 3715, 3716, 3720, 3721, 3724, 3728, 3711"
+3826,"15,692",Lab Analytical Instruments,0,"3841, 3842, 3843, 3844, 3845, 2833, 3826, 2834, 2836, 2835"
 3559,"15,426","Special Industry Machy, Nec",,
-3812,"14,731","Srch,Det,Nav,Guid,Aero Sys",,
-3724,"14,675","Aircraft Engine, Engine Parts",,
-3571,"14,085",Electronic Computers,,
-2810,"13,781",Indl Inorganic Chemicals,,
-2836,"12,265","Biological Pds, Ex Diagnstics",,
-3841,"11,775","Surgical,Med Instr,Apparatus",,
-2840,"11,333","Soap,Detergent,Toilet Preps",,
-3640,"9,060","Electric Lighting, Wiring Eq",,
-3679,"8,623","Electronic Components, Nec",,
-3823,"8,117",Industrial Measurement Instr,,
-3760,"8,113",Guided Missiles and Space Vehc,,
-3531,"7,966",Construction Machinery and Eq,,
-1311,"7,645",Crude Petroleum and Natural Gs,,
-2621,"6,669",Paper Mills,,
-3678,"6,639",Electronic Connectors,,
-2890,"6,521",Misc Chemical Products,,
-4833,"6,424",Television Broadcast Station,,
-3620,"6,319",Electrical Indl Apparatus,,
-2835,"6,233","In Vitro,In Vivo Diagnostics",,
-3842,"6,186","Ortho,Prosth,Surg Appl,Suply",,
-3560,"5,922",General Industrial Mach and Eq,,
-3523,"5,917",Farm Machinery and Equipment,,
-1381,"5,733",Drilling Oil and Gas Wells,,
-3728,"5,544","Aircraft Parts, Aux Eq, Nec",,
-2821,"5,518","Plastics,Resins,Elastomers",,
-3585,"5,424","Air-Cond, Heating, Refrig Eq",,
-3561,"5,355",Pumps and Pumping Equipment,,
-3661,"5,335",Tele and Telegraph Apparatus,,
-3540,"5,240",Metalworking Machinery and Eq,,
-3510,"4,928",Engines and Turbines,,
+3812,"14,731","Srch,Det,Nav,Guid,Aero Sys",0,"3812, 3621, 3620, 3821, 3822, 3823, 3824, 3825, 3826, 3827, 3829, 3861, 3670, 3672, 3674, 3677, 3678, 3679"
+3724,"14,675","Aircraft Engine, Engine Parts",0,"3713, 3714, 3715, 3716, 3720, 3721, 3724, 3728, 3711"
+3571,"14,085",Electronic Computers,0,"3672, 3570, 3571, 3572, 3670, 3576, 3577, 3674, 3677, 3678, 3679"
+2810,"13,781",Indl Inorganic Chemicals,0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+2836,"12,265","Biological Pds, Ex Diagnstics",0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+3841,"11,775","Surgical,Med Instr,Apparatus",0,"3841, 3842, 3843, 3844, 3845, 2833, 2834, 2835, 2836"
+2840,"11,333","Soap,Detergent,Toilet Preps",0,"2840, 2842, 2844"
+3640,"9,060","Electric Lighting, Wiring Eq",0,"3600, 3612, 3613, 3620, 3621, 3630, 3634, 3640, 3651, 3652, 3661, 3663, 3669, 3670, 3672, 3674, 3677, 3678, 3679, 3690, 3695"
+3679,"8,623","Electronic Components, Nec",0,"3600, 3612, 3613, 3620, 3621, 3630, 3634, 3640, 3651, 3652, 3661, 3663, 3669, 3670, 3672, 3674, 3677, 3678, 3679, 3690, 3695"
+3823,"8,117",Industrial Measurement Instr,0,"3812, 3621, 3620, 3821, 3822, 3823, 3824, 3825, 3826, 3827, 3829, 3861, 3670, 3672, 3674, 3677, 3678, 3679"
+3760,"8,113",Guided Missiles and Space Vehc,0,"3720, 3721, 4841, 3724, 3760, 3728"
+3531,"7,966",Construction Machinery and Eq,0,"3713, 3714, 3715, 3524, 3523, 3716, 3530, 3531, 3532, 3533, 3537, 3711"
+1311,"7,645",Crude Petroleum and Natural Gs,0,"1311, 1381, 1382, 1389, 2911"
+2621,"6,669",Paper Mills,0,"2631, 2600, 2670, 2673, 2611, 2840, 2650, 2842, 2844, 2621"
+3678,"6,639",Electronic Connectors,0,"3600, 3612, 3613, 3620, 3621, 3630, 3634, 3640, 3651, 3652, 3661, 3663, 3669, 3670, 3672, 3674, 3677, 3678, 3679, 3690, 3695"
+2890,"6,521",Misc Chemical Products,0,"2890, 2891"
+4833,"6,424",Television Broadcast Station,0,"4833, 3620, 3621, 9997, 3600, 3510, 3640"
+3620,"6,319",Electrical Indl Apparatus,0,"3600, 3612, 3613, 3620, 3621, 3630, 3634, 3640, 3651, 3652, 3661, 3663, 3669, 3670, 3672, 3674, 3677, 3678, 3679, 3690, 3695"
+2835,"6,233","In Vitro,In Vivo Diagnostics",0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+3842,"6,186","Ortho,Prosth,Surg Appl,Suply",0,"3841, 3842, 3843, 3844, 3845, 2833, 2834, 2835, 2836"
+3560,"5,922",General Industrial Mach and Eq,0,"3585, 9997, 3620, 3621, 3510, 3523, 3524, 3530, 3531, 3532, 3533, 3537, 3540, 3541, 3550, 3555, 3559, 3560, 3561, 3562, 3564, 3567, 3569, 3580"
+3523,"5,917",Farm Machinery and Equipment,0,"3713, 3714, 3715, 3524, 3523, 3716, 3530, 3531, 3532, 3533, 3537, 3711"
+1381,"5,733",Drilling Oil and Gas Wells,0,"1311, 1381, 1382, 1389, 2911"
+3728,"5,544","Aircraft Parts, Aux Eq, Nec",0,"3713, 3714, 3715, 3716, 3720, 3721, 3724, 3728, 3711"
+2821,"5,518","Plastics,Resins,Elastomers",0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+3585,"5,424","Air-Cond, Heating, Refrig Eq",0,"3713, 3714, 3715, 3716, 3585, 3720, 3721, 3724, 9997, 3728, 3730, 3743, 3620, 3621, 3751, 3760, 3510, 3523, 3524, 3530, 3531, 3532, 3533, 3790, 3537, 3711"
+3561,"5,355",Pumps and Pumping Equipment,0,"3585, 3620, 3621, 3560, 3561, 3562, 3564, 3567, 3569, 3580"
+3661,"5,335",Tele and Telegraph Apparatus,0,"3651, 3690, 3661, 3600, 3669, 3674, 3679"
+3540,"5,240",Metalworking Machinery and Eq,0,"3585, 9997, 3620, 3621, 3510, 3523, 3524, 3530, 3531, 3532, 3533, 3537, 3540, 3541, 3550, 3555, 3559, 3560, 3561, 3562, 3564, 3567, 3569, 3580"
+3510,"4,928",Engines and Turbines,0,"3713, 3714, 3715, 3524, 3523, 3716, 3620, 3621, 3530, 3531, 3532, 3533, 9997, 3537, 3510, 3711"
 7370,"4,909","Cmp Programming, Data Process",,
-2851,"4,885","Paints, Varnishes, Lacquers",,
-3825,"4,692",Elec Meas and Test Instruments,,
-3011,"4,033",Tires and Inner Tubes,,
-100,"3,905",Agriculture Production-Crops,,
-3630,"3,886",Household Appliances,,
-3822,"3,665",Automatic Regulatng Controls,,
-3579,"3,543","Office Machines, Nec",,
-2844,"3,361","Perfume,Cosmetic,Toilet Prep",,
-3990,"3,301",Misc Manufacturng Industries,,
-3420,"2,960","Cutlery, Handtools,Gen Hrdwr",,
-3600,"2,802","Electr, Oth Elec Eq, Ex Cmp",,
-2631,"2,686",Paperboard Mills,,
-2800,"2,618",Chemicals and Allied Products,,
-3569,"2,617","General Indl Mach and Eq, Nec",,
-2111,"2,582",Cigarettes,,
-3651,"2,498",Household Audio and Video Eq,,
-3690,"2,486","Misc Elec Machy,Eq,Supplies",,
-3861,"2,467",Photographic Equip and Supply,,
-3290,"2,367","Abrasive, Asbestos, Misc Minrl",,
-3827,"2,367",Optical Instruments and Lenses,,
-3490,"2,309",Misc Fabricated Metal Prods,,
-3089,"2,268","Plastics Products, Nec",,
-3829,"2,246","Meas and Controlling Dev, Nec",,
-2842,"2,234","Special Clean,Polish Preps",,
-2052,"2,202",Cookies and Crackers,,
-2870,"2,154",Agricultural Chemicals,,
-2531,"2,152",Public Bldg and Rel Furniture,,
-3720,"2,086",Aircraft and Parts,,
-3021,"1,980",Rubber and Plastics Footwear,,
-3533,"1,953","Oil and Gas Field Machy, Equip",,
-3949,"1,751","Sporting and Athletic Gds, Nec",,
-3578,"1,592","Calculate, Acct Mach, Ex Comp",,
-2650,"1,390","Paperboard Containers, Boxes",,
+2851,"4,885","Paints, Varnishes, Lacquers",0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+3825,"4,692",Elec Meas and Test Instruments,0,"3812, 3621, 3620, 3821, 3822, 3823, 3824, 3825, 3826, 3827, 3829, 3861, 3670, 3672, 3674, 3677, 3678, 3679"
+3011,"4,033",Tires and Inner Tubes,0,"3011, 2820, 2821, 2800, 2810"
+100,"3,905",Agriculture Production-Crops,0,100
+3630,"3,886",Household Appliances,0,"3651, 3690, 3661, 3630, 3600, 3669, 3674, 3679"
+3822,"3,665",Automatic Regulatng Controls,0,"3812, 3621, 3620, 3821, 3822, 3823, 3824, 3825, 3826, 3827, 3829, 3861, 3670, 3672, 3674, 3677, 3678, 3679"
+3579,"3,543","Office Machines, Nec",0,"3672, 3570, 3571, 3572, 3674, 3670, 3575, 3576, 3577, 3578, 3579, 3677, 3678, 3679"
+2844,"3,361","Perfume,Cosmetic,Toilet Prep",0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+3990,"3,301",Misc Manufacturng Industries,0,"7990, 3634, 3990, 3630"
+3420,"2,960","Cutlery, Handtools,Gen Hrdwr",0,"3330, 3460, 3334, 3211, 3341, 3470, 3220, 3221, 3350, 3480, 3357, 3231, 3360, 3490, 3241, 3250, 3260, 3390, 3320, 3270, 3272, 3411, 3412, 3290, 3420, 3430, 3433, 3310, 2670, 3312, 3440, 3442, 3443, 3444, 3317, 3448, 3451, 3452"
+3600,"2,802","Electr, Oth Elec Eq, Ex Cmp",0,"3600, 3612, 3613, 3620, 3621, 3630, 3634, 3640, 3651, 3652, 3661, 3663, 3669, 3670, 3672, 3674, 3677, 3678, 3679, 3690, 3695"
+2631,"2,686",Paperboard Mills,0,"2631, 2600, 2670, 2673, 2611, 2840, 2650, 2842, 2844, 2621"
+2800,"2,618",Chemicals and Allied Products,0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+3569,"2,617","General Indl Mach and Eq, Nec",0,"3585, 9997, 3620, 3621, 3510, 3523, 3524, 3530, 3531, 3532, 3533, 3537, 3540, 3541, 3550, 3555, 3559, 3560, 3561, 3562, 3564, 3567, 3569, 3580"
+2111,"2,582",Cigarettes,0,2111
+3651,"2,498",Household Audio and Video Eq,0,"3651, 3690, 3661, 3600, 3669, 3674, 3679"
+3690,"2,486","Misc Elec Machy,Eq,Supplies",0,"3600, 3612, 3613, 3620, 3621, 3630, 3634, 3640, 3651, 3652, 3661, 3663, 3669, 3670, 3672, 3674, 3677, 3678, 3679, 3690, 3695"
+3861,"2,467",Photographic Equip and Supply,0,"3861, 3620, 3621, 3670, 3672, 3674, 3677, 3678, 3679, 3812, 3821, 3822, 3823, 3824, 3825, 3826, 3827, 3829, 3577"
+3290,"2,367","Abrasive, Asbestos, Misc Minrl",0,"3330, 3460, 3334, 3341, 3470, 3350, 3480, 3357, 3360, 3490, 3390, 3448, 2891, 3411, 3412, 3290, 3420, 3430, 3433, 3310, 2670, 3312, 3440, 3442, 3443, 3444, 3317, 3320, 3451, 3452"
+3827,"2,367",Optical Instruments and Lenses,0,"3841, 3842, 3843, 3844, 3845, 3851, 3861, 3873, 3670, 3672, 3674, 3677, 3678, 3679, 3812, 3821, 3822, 3823, 3824, 3825, 3826, 3827, 3829"
+3490,"2,309",Misc Fabricated Metal Prods,0,3490
+3089,"2,268","Plastics Products, Nec",0,"2820, 2821, 2800, 3089, 2810"
+3829,"2,246","Meas and Controlling Dev, Nec",0,"3812, 3621, 3620, 3821, 3822, 3823, 3824, 3825, 3826, 3827, 3829, 3861, 3670, 3672, 3674, 3677, 3678, 3679"
+2842,"2,234","Special Clean,Polish Preps",0,"2840, 2842, 2844"
+2052,"2,202",Cookies and Crackers,0,"2080, 2082, 2050, 2020, 2052, 2086, 2085, 2024, 2090, 2060, 2030, 2000, 2033, 2070, 2040, 2011, 2013, 2015"
+2870,"2,154",Agricultural Chemicals,0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+2531,"2,152",Public Bldg and Rel Furniture,0,"3713, 3714, 2531, 3715, 3716, 3711"
+3720,"2,086",Aircraft and Parts,0,"3713, 3714, 3715, 3716, 3720, 3721, 3724, 3728, 3711"
+3021,"1,980",Rubber and Plastics Footwear,0,3949
+3533,"1,953","Oil and Gas Field Machy, Equip",0,"3585, 9997, 3620, 3621, 3510, 3523, 3524, 3530, 3531, 3532, 3533, 3537, 3540, 3541, 3550, 3555, 3559, 3560, 3561, 3562, 3564, 3567, 3569, 3580"
+3949,"1,751","Sporting and Athletic Gds, Nec",0,"3942, 3944, 3949, 3990, 3420"
+3578,"1,592","Calculate, Acct Mach, Ex Comp",0,"3570, 3571, 3572, 3575, 3576, 3577, 3578, 3579"
+2650,"1,390","Paperboard Containers, Boxes",0,"2631, 2600, 2670, 2673, 2611, 2840, 2650, 2842, 2844, 2621"
 2590,"1,361",Misc Furniture and Fixtures,,
-3730,"1,313",Ship and Boat Bldg and Repairing,,
-3670,"1,309","Electronic Comp, Accessories",,
-3221,"1,297",Glass Containers,,
+3730,"1,313",Ship and Boat Bldg and Repairing,0,"3713, 3714, 3715, 3716, 3720, 3721, 3724, 3728, 3730, 3711"
+3670,"1,309","Electronic Comp, Accessories",0,"3600, 3612, 3613, 3620, 3621, 3630, 3634, 3640, 3651, 3652, 3661, 3663, 3669, 3670, 3672, 3674, 3677, 3678, 3679, 3690, 3695"
+3221,"1,297",Glass Containers,0,"3330, 3460, 3334, 3341, 3470, 3221, 3350, 3480, 3357, 3360, 3490, 3390, 3448, 2891, 3411, 3412, 3420, 3430, 3433, 3310, 2670, 3312, 3440, 3442, 3443, 3444, 3317, 3320, 3451, 3452"
 2040,"1,220",Grain Mill Products,1,2040
 3942,"1,173",Dolls and Stuffed Toys,,
-3669,"1,137","Communications Equip, Nec",,
-3312,"1,112",Steel Works and Blast Furnaces,,
+3669,"1,137","Communications Equip, Nec",0,"3651, 3690, 3661, 3600, 3669, 3674, 3679"
+3312,"1,112",Steel Works and Blast Furnaces,0,"3360, 3330, 3334, 3341, 3310, 3312, 3317, 3350, 3320, 3357, 3390"
 2510,"1,069",Household Furniture,,
 2990,"1,056",Misc Pds of Petroleum and Coal,,
-1382,"1,055",Oil and Gas Field Expl Svcs,,
+1382,"1,055",Oil and Gas Field Expl Svcs,0,"1381, 1389, 1382, 1311"
 2085,"1,022",Distilled and Blended Liquor,,
-3621,"1,005",Motors and Generators,,
+3621,"1,005",Motors and Generators,0,"3600, 3612, 3613, 3620, 3621, 3630, 3634, 3640, 3651, 3652, 3661, 3663, 3669, 3670, 3672, 3674, 3677, 3678, 3679, 3690, 3695"
 3562,995,Ball and Roller Bearings,,
 3081,975,Unsupp Plastics Film and Sheet,,
-2000,974,Food and Kindred Products,,
-3430,968,"Heating Eq, Plumbing Fixture",,
-3411,967,Metal Cans,,
-3350,957,Rolling and Draw Nonfer Metal,,
-3743,924,Railroad Equipment,,
+2000,974,Food and Kindred Products,0,"2080, 2082, 2050, 2020, 2052, 2086, 2085, 2024, 2090, 2060, 2030, 2000, 2033, 2070, 2040, 2011, 2013, 2015"
+3430,968,"Heating Eq, Plumbing Fixture",0,3585
+3411,967,Metal Cans,0,3411
+3350,957,Rolling and Draw Nonfer Metal,0,"3360, 3330, 3334, 3341, 3310, 3312, 3317, 3350, 3320, 3357, 3390"
+3743,924,Railroad Equipment,0,"3713, 3714, 3715, 3716, 3720, 3721, 3724, 3711, 3728, 3743"
 3843,909,Dental Equipment and Supplies,,
 3480,905,Ordnance and Accessories,,
 3844,897,X-Ray and Related Apparatus,,
@@ -109,15 +109,15 @@ sic,patents,sic_desc,request_extra_sic,extra_sic
 3851,845,Ophthalmic Goods,,
 2522,843,"Office Furniture, Ex Wood",,
 3357,830,"Drawng,Insulatng Nonfer Wire",,
-2891,751,Adhesives and Sealants,,
-3452,736,"Bolt, Nut, Screw, Rivets, Washrs",,
+2891,751,Adhesives and Sealants,0,"2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 2870, 2840, 2810, 2842, 2844"
+3452,736,"Bolt, Nut, Screw, Rivets, Washrs",0,"3490, 3460, 3448, 3430, 3433, 3470, 3440, 3442, 3411, 3443, 3444, 3412, 3420, 3480, 3451, 3452"
 3270,720,"Concrete, Gypsum, Plaster Pds",,
 9995,671,Nonoperating Establishments,,
 3590,660,"Misc Indl, Coml, Machy and Eq",,
-3320,614,Iron and Steel Foundries,,
+3320,614,Iron and Steel Foundries,0,"3360, 3330, 3490, 3334, 3341, 3310, 3312, 3411, 3540, 3317, 3350, 3541, 3320, 3357, 3390"
 6282,585,Investment Advice,,
-3613,573,Switchgear and Switchboard App,,
-3580,560,Refrig and Service Ind Machine,,
+3613,573,Switchgear and Switchboard App,0,"3600, 3612, 3613, 3620, 3621, 3630, 3634, 3640, 3651, 3652, 3661, 3663, 3669, 3670, 3672, 3674, 3677, 3678, 3679, 3690, 3695"
+3580,560,Refrig and Service Ind Machine,0,"3585, 2851, 2820, 2821, 2890, 2891, 2860, 2800, 2833, 2834, 2835, 2836, 3580, 2870, 2840, 2810, 2842, 2844"
 3050,559,"Gskets,Hose,Bltng-Rubr,Plstc",,
 3532,557,"Mng Machy, Eq, Ex Oil Field",,
 7381,495,"Detect,Guard,Armor Car Svcs",,
@@ -133,8 +133,8 @@ sic,patents,sic_desc,request_extra_sic,extra_sic
 2200,442,Textile Mill Products,,
 3944,438,"Games,Toys,Chld Veh,Ex Dolls",,
 3790,414,Misc Transportation Equip,,
-3530,391,"Constr, Mining, Matl Handle Eq",,
-4841,383,Cable and Other Pay TV Svcs,,
+3530,391,"Constr, Mining, Matl Handle Eq",0,"3585, 3590, 3510, 3523, 3524, 3530, 3531, 3532, 3533, 3537, 3540, 3541, 3550, 3555, 3559, 3560, 3561, 3562, 3564, 3567, 3569, 3570, 3571, 3572, 3575, 3576, 3577, 3578, 3579, 3580"
+4841,383,Cable and Other Pay TV Svcs,0,"3713, 3714, 3715, 3716, 3751, 3720, 4841, 3721, 3724, 3790, 3711, 3760, 3728, 3730, 3411, 3743"
 3567,373,"Indl Process Furnaces, Ovens",,
 2060,359,Sugar and Confectionery Prods,,
 2950,357,"Asphalt Paving, Roofing Matls",,
@@ -151,7 +151,7 @@ sic,patents,sic_desc,request_extra_sic,extra_sic
 1400,282,"Mng, Quarry Nonmtl Minerals",,
 3550,241,Special Industry Machinery,,
 3555,232,"Printing Trades Machy, Equip",,
-3060,230,"Fabricated Rubber Pds, Nec",,
+3060,230,"Fabricated Rubber Pds, Nec",0,"2820, 2821, 2800, 3060, 2810"
 3330,213,"Prim Smelt,Refin Nonfer Metl",,
 2761,212,Manifold Business Forms,,
 3080,206,Misc Plastics Products,,
@@ -173,7 +173,7 @@ sic,patents,sic_desc,request_extra_sic,extra_sic
 3821,123,Lab Apparatus and Furniture,,
 3695,122,"Magnetc,Optic Recordng Media",,
 2011,108,Meat Packing Plants,,
-7990,108,Misc Amusement and Rec Service,,
+7990,108,Misc Amusement and Rec Service,0,"3949, 3630, 3570, 3571, 3572, 3579, 7990, 3575, 3576, 3577, 3578, 3990"
 2090,105,"Misc Food Preps, Kindred Pds",,
 8731,104,"Coml Physical, Biologcl Resh",,
 3541,103,"Machine Tools, Metal Cutting",,
