@@ -28,8 +28,8 @@ from sklearn.linear_model import LogisticRegression, Lasso, RidgeClassifier, Pas
 from sklearn.base import BaseEstimator, TransformerMixin
 pd.set_option('mode.chained_assignment', None)
 
-root = '//afs//crc.nd.edu//user//c//cdaviso1//pvp_git'
-directory_initial = root + '//data//'
+root = '/Users/cdavison/Library/CloudStorage/OneDrive-TheCollegeofWooster/research/product-process/'
+directory_initial = root + '/data/'
 classifier_list = [ComplementNB(), MultinomialNB(), PassiveAggressiveClassifier(random_state=5)]
 feature_select_list = ['no', 'yes']
 classify = 'process'
@@ -38,6 +38,7 @@ print_on = 'no'
 final_prediction_on = 'yes'
 
 df_sic_list = pd.read_csv(root + '//data//sic_list.csv').dropna(subset = ['request_extra_sic'])
+df_sic_list = df_sic_list[df_sic_list['request_extra_sic'] == 1]
 df_sic_list['extra_sic'] = df_sic_list['extra_sic'].apply(lambda x: str(x).split(', '))
 df_sic_list_full = pd.read_csv(root + '//data//sic_list.csv')
 
