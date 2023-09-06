@@ -1,7 +1,7 @@
 # Product/Process Patents
 
 ## Note
-- Since Google Patents changes over time, the results may change slightly based on the day the data is accessed. 
+- Since Google Patents changes over time, the results may change slightly based on the day the data is accessed.  The code was run with version 1.0.2 of scikit-learn.
 
 ## Outline
 1. `code/webscrape.py`: scrapes patent data from Google Patents
